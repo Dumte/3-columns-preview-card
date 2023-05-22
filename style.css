@@ -35,6 +35,7 @@ body {
 .custom-class {
   border-radius: 10px;
   overflow: hidden;
+  width: 800px;
 }
 
 .sedans {
