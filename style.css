@@ -18,9 +18,7 @@
   /* Body font-size */
   --fs: 0.938rem;
   
-  /* Width */
-  --mobile-width: 25rem;
-  --desktop-width: 96rem;
+
 }
 
 body {
@@ -35,7 +33,7 @@ body {
 .custom-class {
   border-radius: 10px;
   overflow: hidden;
-  width: 800px;
+  width: 70rem;
 }
 
 .sedans {
@@ -69,6 +67,9 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
+.custom-button:hover{
+  background-color: gray;
+ } 
 img {
   margin-top: 30px;
 }
