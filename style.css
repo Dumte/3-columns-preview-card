@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Primary colors*/
+  --bright-orange: #e38826;
+  --dark-cyan: #006970;
+  --veryDarkCyan: #004241;
+  
+  /* Paragraph */
+  --transparent-white: rgba(255, 255, 255, 0.75);
+  
+  /* Headings, Button and backgrounds*/
+  --veryLightGray: #f2f2f2;
+  
+  /* Body font-size */
+  --fs: 0.938rem;
+  
+  /* Width */
+  --mobile-width: 25rem;
+  --desktop-width: 96rem;
+}
+
+body {
+  background-color: var(--veryLightGray);
+  font-size: var(--fs);
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.custom-class {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sedans {
+  background-color: var(--bright-orange);
+}
+.suvs {
+  background-color: var(--dark-cyan);
+}
+.luxury {
+  background-color: var(--veryDarkCyan);
+}
+
+#sedans-h1, #suvs-h1, #luxury-h1{
+  color: var(--veryLightGray);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#sedans-p, #suvs-p, #luxury-p{
+  color: var(--transparent-white);
+  line-height: 2.74rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.custom-button {
+  width: 11rem;
+  height: 3rem;
+  margin-left: 2rem;
+  border-radius: 30px;
+  background-color: var(--veryLightGray);
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+img {
+  margin-top: 30px;
+}
+.sedans-button {
+  color: var(--bright-orange);
+}
+.suvs-button {
+  color: var(--dark-cyan);
+}
+.luxury-button {
+  color: var(--veryDarkCyan);
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
