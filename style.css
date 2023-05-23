@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: var(--veryLightGray);
+  background-color: #f2f2f2;
   font-size: var(--fs);
   margin: 0 auto;
   min-height: 100vh;
